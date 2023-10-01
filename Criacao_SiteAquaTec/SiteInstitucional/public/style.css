@@ -1,0 +1,128 @@
+*{ /* Tudo no site vai ter essa estilização*/
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+body {
+    margin: 0;
+}
+
+/* Aqui vai estilizar a div e tudo o que estpa dentro dela */
+.header {
+    border-bottom: 3px solid aqua;
+    background-color: black;
+    margin: 0px 0px 3px 0px;
+}
+
+/* O container foi criado para ajudar a dar espaçamento dos itens no site */
+.header .container {
+    width: 80%;
+    margin: auto;
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilzando só a lista */
+.header .container  ul {
+    width: 400px;
+    list-style: none; 
+    display: flex;
+    justify-content: space-between;
+    color: orange;
+}
+
+.header ul #aqui {
+    font-weight: 1000;
+    color: #32b9cd;
+}
+
+.header ul #cadastro {
+    font-weight: 1000;
+    color: #32b9cd;
+}
+
+/* Estilizando a ancora */
+.header .container  a {
+    color: orange;
+    text-decoration: none;
+}
+
+/* Estilizando a logo da página */
+.header .container h1 {
+    color: aqua;
+}
+
+/* Estilizando somente o container - vai ser a estilização padrão*/
+.container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+/* Estilzando o banner */
+.banner {
+    background-image: url(assets/img/bg-jelly-fish-para_outras_pags.png);
+    background-size: cover; /*Como o banner vai ficar(Esse vai mamnter a div preenchida com imagem)*/
+}
+
+.banner .container { /*Especificando o container dentro da class banner*/
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+}
+
+.banner .container p {
+    font-size: 36px;
+    color: white;
+    width: 280px;
+}
+
+/* EStilizando a parte do social */
+.social {
+    background-color: #e5e5e5;
+    display: flex;
+}
+
+.social .container {
+    justify-content: center;
+}
+
+.box img {
+    width: 100px;
+}
+
+.social .container .boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 280px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box p{
+    text-align: center;
+}
+
+/* Estilzando o footer */
+.footer {
+    height: 60px;
+    width: 100%;
+    background-color: aqua;
+}
+
+.footer .container {
+    justify-content: center;
+}
+
+.footer .container .version {
+    font-size: 12px;
+    font-weight: 800;
+}
+
+

@@ -1,0 +1,53 @@
+/* Para estilizar a parte do formulario */
+
+.banner .container {
+    background-image: url(assets/img/bg-jelly-fish-para_outras_pags.png);
+    height: 697px;
+}
+
+.caixa_formulario {
+    background: white;
+    width: 400px;
+    height: 400px;
+    color:#f7a224;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    margin: 100px;
+}
+
+.caixa_formulario h1 {
+    font-size: 30px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.formulario button {
+    margin-top: 10px;
+    background: #db870a;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 120px;
+    align-self: center;
+    cursor: pointer;
+}
+
+.formulario input {
+    padding: 10px 15px;
+    text-align: center;
+    border: 2px solid rgb(82, 143, 196);
+    border-radius: 10px;
+}
+
+.formulario span {
+    font-size: 20px;
+}
